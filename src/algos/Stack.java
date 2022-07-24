@@ -29,6 +29,10 @@ public class Stack {
         return last.data;
     }
 
+    public boolean isEmpty() {
+        return (last == null);
+    }
+
     static class Node {
         public final int data;
         private Node next;
