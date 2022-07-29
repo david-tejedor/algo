@@ -1,0 +1,6 @@
+.idea/*
+dist/*
+target/
+out/
+*.class
+*.log
