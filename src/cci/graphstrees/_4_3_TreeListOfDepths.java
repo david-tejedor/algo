@@ -3,6 +3,9 @@ package cci.graphstrees;
 //    Given a binary tree, design an algorithm which creates a linked list of all the nodes at each depth (e.g., if
 //    you have a tree with depth D, you'll have D linked lists)
 
+import algos.datastructures.Tree;
+import algos.datastructures.TreeNode;
+
 import java.util.ArrayList;
 import java.util.Collections;
 import java.util.LinkedList;
@@ -27,7 +30,7 @@ class ListOfDepths {
             nextLevel = new ArrayList();
 
             for (TreeNode<T> node : currentLevel) {
-                depth.add(node.value);
+                depth.add(node.data);
 
                 if (node.left != null)
                     nextLevel.add(node.left);
@@ -41,23 +44,5 @@ class ListOfDepths {
         }
 
         return listOfDepths;
-    }
-}
-
-class Tree<T> {
-    TreeNode<T> root;
-
-    public Tree(T root) {
-        this.root = new TreeNode<>(root);
-    }
-}
-
-class TreeNode<T> {
-    T value;
-    TreeNode<T> left;
-    TreeNode<T> right;
-
-    public TreeNode(T value) {
-        this.value = value;
     }
 }
