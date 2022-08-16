@@ -1,8 +1,8 @@
 package cci.linkedlists;
 
-import algos.LinkedList;
+import algos.datastructures.LinkedList;
 
-import static algos.LinkedList.*;
+import static algos.datastructures.LinkedList.*;
 
 public class _2_7_Intersection {
 

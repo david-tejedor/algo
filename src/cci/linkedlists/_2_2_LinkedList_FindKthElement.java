@@ -1,9 +1,9 @@
 package cci.linkedlists;
 
-import algos.LinkedList;
+import algos.datastructures.LinkedList;
 import javafx.util.Pair;
 
-import static algos.LinkedList.Node;
+import static algos.datastructures.LinkedList.Node;
 
 public class _2_2_LinkedList_FindKthElement {
 

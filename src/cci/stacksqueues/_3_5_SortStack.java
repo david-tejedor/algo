@@ -1,6 +1,6 @@
 package cci.stacksqueues;
 
-import algos.Stack;
+import algos.datastructures.Stack;
 
 public class _3_5_SortStack {
 
