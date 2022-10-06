@@ -1,7 +1,7 @@
 package cci.linkedlists;
 
 import algos.datastructures.LinkedList;
-import javafx.util.Pair;
+import algos.datastructures.Pair;
 
 import static algos.datastructures.LinkedList.Node;
 

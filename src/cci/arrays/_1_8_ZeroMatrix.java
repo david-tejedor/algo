@@ -3,7 +3,7 @@ package cci.arrays;
 import java.util.HashSet;
 import java.util.Set;
 
-public class _1_7_ZeroMatrix {
+public class _1_8_ZeroMatrix {
 
     public static void main(String[] args) {
         int[][] m1 = {{1, 2, 0}, {5, 0, 7}, {9, 0, 11}, {13, 14, 15}, {}};
