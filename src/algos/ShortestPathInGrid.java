@@ -41,7 +41,9 @@ public class ShortestPathInGrid {
                 int nx = x + dx[i];
                 int ny = y + dy[i];
 
-                if (!visited[ny][nx] && grid[ny][nx] != 'X') {
+                if (ny < grid.length && nx < grid[0].length && ny >= 0 && nx >= 0
+                        && !visited[ny][nx] && grid[ny][nx] != 'X') {
+
                     qx.add(nx);
                     qy.add(ny);
 
